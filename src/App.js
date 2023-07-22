@@ -3,7 +3,8 @@ import './App.css';
 // import Main from './components/Main';
 // import Sidebar from './components/Sidebar';
 // import Btn from './components/Btn';
-import ModeToggler from './components/ModeToggler';
+// import ModeToggler from './components/ModeToggler';
+import Promo from './components/Promo';
 
 
 
@@ -16,7 +17,8 @@ function App() {
       <Sidebar greet="Hi"/>
       <Btn/> */}
       
-      <ModeToggler/>
+      {/* <ModeToggler/> */}
+      <Promo/>
 
     </div>
   )

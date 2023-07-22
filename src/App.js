@@ -8,7 +8,7 @@ import './App.css';
 // import MealsProviders from './providers/MealsProviders';
 // import Counter from './components/meals/Counter';
 // import MealsList from './components/meals/MealsList';
-
+import {Routes,Route,Link} from 'react-router-dom'
 import Ride from './components/useReducer/Ride';
 
 
@@ -22,11 +22,9 @@ function App() {
       {/* <ModeToggler/> */}
       {/* <Promo/> */}
 
-      {/* <MealsProviders>
-        <MealsList/>
-        <Counter/>
-      </MealsProviders> */}
-      <Ride/>
+     <Routes>
+        <Route path="/ride" element={<Ride/>}/>
+     </Routes>
 
     </div>
   )

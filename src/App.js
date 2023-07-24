@@ -10,6 +10,7 @@ import './App.css';
 // import MealsList from './components/meals/MealsList';
 import {Routes,Route,Link} from 'react-router-dom'
 import Ride from './components/useReducer/Ride';
+import Map from './functions/Map';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
 
      <Routes>
         <Route path="/ride" element={<Ride/>}/>
+        <Route path="/map" element={<Map/>}/>
+
+
      </Routes>
 
     </div>

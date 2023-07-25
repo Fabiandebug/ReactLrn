@@ -8,9 +8,11 @@ import './App.css';
 // import MealsProviders from './providers/MealsProviders';
 // import Counter from './components/meals/Counter';
 // import MealsList from './components/meals/MealsList';
-import {Routes,Route,Link} from 'react-router-dom'
+import {Routes,Route} from 'react-router-dom'
 import Ride from './components/useReducer/Ride';
 import Map from './functions/Map';
+import Form from './forms/Form';
+import Feedback from './forms/Form2';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
      <Routes>
         <Route path="/ride" element={<Ride/>}/>
         <Route path="/map" element={<Map/>}/>
+        <Route path="/form" element={<Form/>}/>
+        <Route path="/feedback" element={<Feedback/>}/>
 
 
      </Routes>
